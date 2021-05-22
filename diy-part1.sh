@@ -22,6 +22,7 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-pass
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone https://github.com/pymumu/smartdns.git package/smartdns
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+
 git clone https://github.com/Lienol/openwrt.git
 cp -r openwrt/package/diy/luci-app-adguardhome package
